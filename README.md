@@ -9,7 +9,19 @@ Only Mercedes and Redbull images were used.
 ```bash
 pip install -r requirements.txt
 ```
-1. prepare_data.py
-2. train_svm_classifier_f1.py
-3. classifier.py
+
+### Prepare data for training
+```bash
+python prepare_data.py
+```
+
+### Train model
+```bash
+python train_svm_classifier_f1.py
+```
+
+### Use classifier
+```bash
+python classifier.py
+```
 
